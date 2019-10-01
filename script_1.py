@@ -41,11 +41,12 @@ def train(workout):
     with open("data.txt", "a") as file:
         file.write("\n")
 
+
 workouts = dict()
 
 workouts["day_a"] = [Exercise("Squat", 80, rest=3), Exercise("Bench Press", 70, rest=3),
                      Exercise("Chin Ups", rest=3)]
-workouts["day_b"] = [Exercise("Dumbell Curls", 10, rest=3), Exercise("Military Press", 30, rest=3)]
+workouts["day_b"] = [Exercise("Dumbbell Curls", 10, rest=3), Exercise("Military Press", 30, rest=3)]
 
 # ---------- MAIN CYCLE ----------
 cycle = True
